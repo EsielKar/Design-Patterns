@@ -22,7 +22,7 @@ public class Product {
         return "A: " + a + " B: " + b + " C: " + c;
     }
 
-    public static class ProductBuilder implements Builder {
+    public class ProductBuilder implements Builder {
         private Product product;
 
         public ProductBuilder() {
